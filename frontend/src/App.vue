@@ -145,4 +145,13 @@ body {
   font-size: 16px;
   background: black;
 }
+
+a {
+  color: #f5eee6;
+}
+
+::selection {
+  color: #d7b7c6;
+  background: black;
+}
 </style>
