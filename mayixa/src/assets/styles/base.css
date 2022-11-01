@@ -10,22 +10,21 @@
   --color-background: var(--black);
   --color-text: var(--soft);
 
-  --section-gap: 160px;
-}
 
-/* @media (prefers-color-scheme: dark) {
+   /* Spacing */
+   --container-spacing: 1rem; /* 16px */
+   --section-gap: 160px;
+ }
+ @media screen and (min-width: 426px) {
   :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --container-spacing: 1.5rem; /* 24px */
   }
-} */
+ }
+ @media screen and (min-width: 768px) {
+   :root {
+     --container-spacing: 3.75rem; /* 60px */
+   }
+ }
 
 *,
 *::before,
